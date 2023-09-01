@@ -23,7 +23,9 @@ public class imc {
 
         imc = peso / (altura * altura);
 
-        System.out.println("Seu IMC é: " + imc);
+        System.out.println("Seu IMC é: " + imc); 
+        
+        // Area de verificação: 
 
         if (imc < 18.5) {
             System.out.println("Magreza");
